@@ -15,8 +15,8 @@
     </properties>
 
     <modules>
-        <module>ch2-1</module><!--
-        <module>ch3-1</module>
+        <module>ch2-1</module>
+        <module>ch3-1</module><!--
         <module>ch3-2</module>
         <module>ch3-3</module>
         <module>ch3-4</module>
