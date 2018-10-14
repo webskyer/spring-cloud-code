@@ -60,6 +60,7 @@ __pycache__/
 .settings/
 .classpath
 .project
+/classes/
 
 
 # IntelliJ, based on http://devnet.jetbrains.net/docs/DOC-1186
@@ -82,5 +83,6 @@ __pycache__/
 # SVN metadata
 .svn/
 
+# log
 logs/
 
