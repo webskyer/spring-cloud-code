@@ -1,11 +1,11 @@
 ##  3.5.5 启用 https(Page61)
 
 ### 1. 证书生成(Page61)
-ch3-5-eureka-server目录下,生成 server.p12 证书,密码 Spring Clound :
+ch3-5-eureka-server 目录下,生成 server.p12 证书,密码 springcloud :
 ```
 keytool -genkeypair -alias server -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore server.p12 -validity 3650
 ```
-ch3-5-eureka-server目录下,生成 client.p12 证书,密码 Client :
+ch3-5-eureka-server 目录下,生成 client.p12 证书,密码 client :
 ```
 keytool -genkeypair -alias client -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore client.p12 -validity 3650
 ```
@@ -29,10 +29,13 @@ ch3-5-eureka-server目录下，使用 https 的 profile 启动
 ```
 mvn spring-boot:run -Dspring.profiles.active=https
 ```
-
 ### 3. Eureka Client 配置(Page65)
 移动 ch3-5-eureka-server 目录下的 resources 目录下的 client.p12 到 ch3-5-eureka-client 目录下的 resources 目录
 ch3-3-eureka-client目录下，使用 https 的 profile 启动
 ```
 mvn spring-boot:run -Dspring.profiles.active=https
+```
+命令查看：
+```
+curl --insecure https://localhost:8761/eureka/apps
 ```

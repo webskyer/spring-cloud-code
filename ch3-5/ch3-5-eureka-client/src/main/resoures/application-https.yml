@@ -4,7 +4,7 @@ server:
   ssl:
     enabled: true
     key-store: classpath:client.p12
-    key-store-password: Client
+    key-store-password: client
     key-store-type: PKCS12
     key-alias: client
 
@@ -16,6 +16,6 @@ eureka:
     securePortEnabled: true
     ssl:
       key-store: client.p12
-      key-store-password: Client
+      key-store-password: client
     service-url:
       defaultZone: https://localhost:8761/eureka/
