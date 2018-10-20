@@ -12,7 +12,7 @@
     <description>ch3-1</description>
 
     <modules>
-        <module>ch3-1-cc.songwei.springcloud.book.config-server</module>
+        <module>ch3-1-config-server</module>
         <module>ch3-1-eureka-server</module>
         <module>ch3-1-eureka-client</module>
     </modules>
