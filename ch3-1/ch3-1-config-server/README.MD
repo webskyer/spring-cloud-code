@@ -3,7 +3,7 @@
 | ----------------------------------- | ------------------------------------------------------------------- |
 |  /{app}/{profile}                   |  Configuration data for app in Spring profile (comma-separated).    |
 |  /{app}/{profile}/{label}           |  Add a git label                                                    |
-|  /{app}/{profiels}{label}/{path}    |  An environment-specific plain text config file (at "path")         |
+|  /{app}/{profiels}{label}/{path}    |  An environment-specific plain text cc.songwei.springcloud.book.config file (at "path")         |
 
 ## 实例
 ```

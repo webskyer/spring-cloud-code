@@ -4,16 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cc.songwei.springcloud.book</groupId>
-    <artifactId>ch3-1-eureka-server</artifactId>
+    <artifactId>ch3-5-eureka-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>ch3-1-eureka-server</name>
-    <description>ch3-1-eureka-server</description>
+    <name>ch3-5-eureka-client</name>
+    <description>ch3-5-eureka-client</description>
 
     <parent>
         <groupId>cc.songwei.springcloud.book</groupId>
-        <artifactId>ch3-1</artifactId>
+        <artifactId>ch3-5</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
@@ -26,12 +26,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.5</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-cc.songwei.springcloud.book.config</artifactId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
 

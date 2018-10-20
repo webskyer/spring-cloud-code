@@ -1,6 +1,6 @@
 spring:
   application:
-    name: config-server
+    name: cc.songwei.springcloud.book.config-server
     profiles:
       active: native
 server:
