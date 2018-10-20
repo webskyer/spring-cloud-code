@@ -6,11 +6,11 @@ ch4-1-gzip开启了Gzip压缩
 ch4-1-hello 没有开启Gzip压缩
 
 ## 测试
-### 1.启动访问 ch4-1-hello
+### 1.启动访问 ch4-1-hello(Page78)
 ```
 http://localhost:8010/search/github?str=spring-cloud-dubbo
 ```
-### 2.启动访问 ch4-1-gizp
+### 2.启动访问 ch4-1-gizp(Page80)
 ```
 http://localhost:8011/search/github?str=spring-cloud-dubbo
 ```

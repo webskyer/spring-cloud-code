@@ -6,4 +6,4 @@ spring:
 
 logging:
   level:
-    cn.springcloud.book.feign.service.HelloFeignService: debug
+    cc.songwei.springcloud.book.feign.service.HelloFeignService: debug
