@@ -18,7 +18,7 @@ http://localhost:8011/search/github?str=spring-cloud-dubbo
 
 实际调用的是:
 ```
-https://api.github.com/search/repositories?q=spring-cloud-minos
+https://api.github.com/search/repositories?q=spring-cloud-dubbo
 ```
 
 

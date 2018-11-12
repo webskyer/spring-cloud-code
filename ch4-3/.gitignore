@@ -23,11 +23,3 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-
-# log
-logs/
-
-# logs and trace
-*.log
-*.trace
-*.dat
